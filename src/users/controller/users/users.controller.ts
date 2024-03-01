@@ -5,7 +5,6 @@ import {
   HttpException,
   HttpStatus,
   Inject,
-  NotFoundException,
   Param,
   ParseIntPipe,
   UseFilters,
