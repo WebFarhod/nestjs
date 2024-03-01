@@ -11,7 +11,7 @@ export class User {
     nullable: false,
     default: '',
   })
-  userName: string;
+  username: string;
 
   @Column({
     nullable: false,
