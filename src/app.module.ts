@@ -5,7 +5,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './typeorm';
 import { AuthModule } from './auth/auth.module';
 import { PassportModule } from '@nestjs/passport';
-
 @Module({
   imports: [
     CustomersModule,
